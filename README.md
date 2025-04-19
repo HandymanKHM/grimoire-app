@@ -74,3 +74,59 @@ Let’s build what the prophets saw.
 
 **#grimoire-app #lightmodeOnly #noToSorcery #yesToWisdom #mondayKingdomBuild**
 
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package installer)
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/HandymanKHM/grimoire-app.git
+   cd grimoire-app
+   ```
+
+2. Install the required dependencies:
+   ```sh
+   pip install -r deploy/requirements.txt
+   ```
+
+### Running the App
+
+To run the Streamlit app, execute the following command:
+```sh
+streamlit run interfaces/streamlit_app.py
+```
+
+This will start the app, and you can access it in your web browser at `http://localhost:8501`.
+
+### Folder Structure
+
+The project directory is structured as follows:
+```
+grimoire-app/
+├── core/
+│   └── wisdom_engine.py
+├── services/
+│   └── gemini_agent.py
+├── interfaces/
+│   └── streamlit_app.py
+├── resources/
+│   └── prompts/
+│       └── default_prompt.txt
+├── deploy/
+│   └── requirements.txt
+├── README.md
+```
+
+Each folder contains specific components of the app:
+- `core/`: Core logic for the wisdom engine.
+- `services/`: API hooks for the Gemini agent.
+- `interfaces/`: UI layer for the Streamlit app.
+- `resources/`: Prompt templates and other resources.
+- `deploy/`: Deployment configurations and requirements.
+
