@@ -1,0 +1,5 @@
+# Default Prompt Template
+
+Welcome to the Grimoire App: Library of Living Wisdom.
+
+Please enter your query or command below to interact with the wisdom engine.
